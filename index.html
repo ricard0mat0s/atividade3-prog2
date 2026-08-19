@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
-                <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                <img src="logo.png" width="60" height="30" class="d-inline-block align-top" alt="">
                 TechPulse
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,26 +36,26 @@
             </div>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>Faça Login!</h2>
+    <main class="row justify-content-center">
+        <section class="col-4 border rounded">
+            <h2>Login</h2>
             <form>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <label for="emailInput" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
                 </div>
 
                 <div class="mb-3">
-                    <label for="inputPassword5" class="form-label">Password</label>
-                    <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                    <label for="inputPassword" class="form-label">Senha</label>
+                    <input type="password" id="inputPassword" class="form-control" aria-describedby="passwordHelpBlock">
                 </div>
 
-                <button type="button" class="btn btn-primary">Login</button>
+                <button type="button" id="idButton" class="btn btn-primary">Login</button>
 
             </form>
         </section>
     </main>
-    <footer>
+    <footer id="footer">
         <p>&copy; 2026 TechPulse. All rights reserved.</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
