@@ -1,7 +1,9 @@
 .logo {
-  display: flex;
-  height: 120px;
-  align-items: center;
-  justify-content: center;
-  color: #ff0083;
+    background: left / cover
+    url("https://pngimg.com/uploads/google/google_PNG19644.png");
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    color: #ff0083;
 }
